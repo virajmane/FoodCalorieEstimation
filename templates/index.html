@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<title>Result</title>
+<title>Food Calorie Estimation</title>
 <style>
     body {
     background-color: #f2f7fb
@@ -92,6 +92,7 @@
             <div class="card-header">
                 <h3>Food Calorie Estimation</h4>
                 <h6>Estimate live food calories & nutrition information from a single food image</h6>
+                <a href="https://cal.virajman3.repl.co/demo/2">Example Click Here</a>
             </div>
             <div class="card-block">
                 <form action="/result" method = "POST" class="dropzone dz-clickable" enctype = "multipart/form-data">
@@ -100,7 +101,25 @@
                     <input class="btn btn-primary" type = "submit"/>
                 </div>
                 </form>
-
+<br>
+<h4>Instructions:</h4>
+<dl>
+  <dt>Limitations</dt>
+  <dd>- The image size must be under 1024KB.</dd>
+  <dd>- The image format must be in JPEG, JPG or PNG.</dd>
+  <dt>Do's</dt>
+  <dd>- Take pictures from an eye-level perspective.</dd>
+  <dd>- Take a picture for each food item separately.</dd>
+  <dd>- Center the food on the picture.</dd>
+  <dd>- Upload squared images, meaning that height and width are the same.</dd>
+  <dt>Dont's</dt>
+  <dd>- Occlusions of other items.</dd>
+  <dd>- Top or side view images.</dd>
+  <dd>- Include only a part of the food.</dd>
+  <dd>- Blurry images.</dd>
+  <dd>- Images taken on screens or display monitors.</dd>
+  <dd>- Images that include multiple food items.</dd>
+</dl>
 <br>
 <h4>Example:</h4>
 
