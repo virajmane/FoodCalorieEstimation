@@ -8,7 +8,7 @@ import json
 UPLOAD_FOLDER = 'static/uploads/'
 app = Flask(__name__, static_url_path='/')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-my_secret = "845ed2dcdfbaa87701e6d88b5c3a8c2459890dfa"
+my_secret = os.environ['apikey']
 
 def demo_cal(num):
     if int(num)==1:
