@@ -1,6 +1,7 @@
 # FoodCalorieEstimation
-Estimates live food calories and nutrition information from image using logmeal API. \
-Link: [https://cal.virajman3.repl.co](https://cal.virajman3.repl.co)
+Estimates live food calories and nutrition information from an image. \
+Demo URL: [https://foood.azurewebsites.net](https://foood.azurewebsites.net) \
+Alternative URL: [https://cal.virajman3.repl.co](https://cal.virajman3.repl.co)
 
 ## **Output Screenshot:**
 
